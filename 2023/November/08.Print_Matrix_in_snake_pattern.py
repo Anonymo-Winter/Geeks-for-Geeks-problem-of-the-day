@@ -4,6 +4,7 @@
 class Solution:
     
     #Function to return list of integers visited in snake pattern in matrix.
+    def snakePattern(self, matrix):
         n=len(matrix)
         list=[]
         row=0
